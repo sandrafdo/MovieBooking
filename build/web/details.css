@@ -1,0 +1,45 @@
+h1{
+                color:#F2003C;
+                font-family:Calibri;
+ }
+ h2{
+            color:#000000;
+                display:inline-block;
+                font-family:Calibri;
+            }
+            h3{
+                color:#FFFFFF;
+                font-family:Calibri;
+            }
+            h4{
+                font-family: Calibri;
+                text-align: left;
+            }
+            
+            
+    .bstyle {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 20px;
+    margin: 8px 10px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    border-radius: 8px;
+       }
+            form {
+    width: 300px;
+    margin: 0 auto;
+        }
+        .center {
+            text-align: left;
+    padding: 0 3px;
+   
+    float:left;
+    margin: auto;
+        }
+.back{
+    background-size:cover;
+    background-position: fixed;
+    background-image: no-repeat left top fixed;
+}

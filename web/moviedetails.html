@@ -1,0 +1,82 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="dropdown.css" type="text/css" />
+</head>
+<body background="back.jpg" class="back">
+<h1 align="center">Movie Ticket Booking</h1>
+<h3 align="center">Now it is easy to book Movie tickets..anytime anywhere!!</h3>
+<div class="row">
+    <div class="column left">
+        <h4>Top Rated movies</h4><br>
+        <p class="para">Kaala - 92%</p><br>
+        <p class="para">Jurassic Park - 90%</p><br>
+        <p class="para">Raazi - 85%</p><br>
+        <p class="para">Deadpool - 84%</p><br>
+        <p class="para">Nadigar Thilagam - 80%</p><br>
+    </div>
+     <div class="column left">
+        <h4>Coming Soon</h4><br>
+        <p class="para">Saamy Square</p><br>
+        <p class="para">Tik Tik Tik</p><br>
+        <p class="para">Kargil</p><br>
+        
+    </div>
+    <div class="colum middle">
+        <div class="center">
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn" >Movies</button>
+        <div id="myDropdown" class="dropdown-content">
+        <h4>English</h4>
+            <a href="jurassic.html">Jurassic World</a>
+            <a href="#about">Avengers:Infinity War</a>
+            <a href="#contact">Deadpool</a>
+            <h4>Tamil</h4>
+            <a href="jurassic.html">Jurassic World-Tamil</a>
+            <a href="#about">Kaala</a>
+            <a href="#contact">Irumbuthirai</a>
+            <a href="#contact">Semma</a>
+        </div>
+    </div>
+    <div class="dropdown">
+    <button onclick="myFunction1()" class="dropbtn" >Cinemas</button>
+    <div id="myDropdown1" class="dropdown-content">
+    <a href="cinemas.html">AGS Cinemas-Omr</a>
+    <a href="#about">AGS Cinemas-Villivakkam</a>
+    <a href="#contact">Abirami Cinemas</a>
+    <a href="#contact">INOX</a>
+    <a href="#contact">Luxe Cinemas</a>
+    <a href="#contact">PVR Cinemas</a>
+  </div>
+</div>
+           
+        </div>
+</div>
+</div>
+<script>
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+function myFunction1() {
+    document.getElementById("myDropdown1").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</body>
+</html>

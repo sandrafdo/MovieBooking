@@ -1,0 +1,28 @@
+h1{
+                color:#F2003C;
+                font-family:Calibri;
+            }
+             h2{
+                display:inline-block;
+                font-family:Calibri;
+            }
+            
+            .confirm{
+       background-color: #F2003C;
+    color: white;
+    padding: 14px 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+   float:right;
+    display: flex; 
+    justify-content: center;
+    width:20%;
+    text-align: center;
+    border-radius: 8px;
+            }
+       .back{
+    background-size:cover;
+    background-position: fixed;
+    background-image: no-repeat left top fixed;
+}
